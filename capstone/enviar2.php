@@ -13,9 +13,9 @@ $header .= "Content-Type: text/plain";
 $mensaje = "Este mensaje fue enviado por " . $name . ",\r\n";
 $mensaje .= "Su e-mail es: " . $email . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['Message'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'ignaciobluuweb@gmail.com';
+
+$para = 'marcellamartorana@gmail.com';
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $subject, utf8_decode($mensaje), $header);
