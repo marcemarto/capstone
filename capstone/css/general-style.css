@@ -1,0 +1,37 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   background-color: rgb(240, 255, 255);
+   background-image: url('..//imgs/restaurant.jpg');
+   background-attachment: fixed;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 0;
+   font-size: 12px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+   width: 100%;
+}
+header {
+   display: flex;
+   background-color: rgba(0, 54, 54, .5);
+}
+.cabecera {
+   
+}
+h1 {
+   margin-top: 0;
+   margin-left: 10px;
+   font-size: 14px;
+   font-family: 'Merienda One', cursive;
+   color: rgb(240, 255, 255);
+   text-shadow: 3px 3px 3px rgb(124, 2, 2);
+}
+.logo {
+   width: 150px;
+}
