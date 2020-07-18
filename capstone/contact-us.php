@@ -15,8 +15,6 @@
       <textarea name="Message" id="message" cols="30" rows="10" placeholder="Write here your message" required></textarea>
       <input type="submit" value="Submit" id="button">
    </form>
-   <?php
-   include("enviar.php");
-   ?>
+ 
 </body>
 </html>
